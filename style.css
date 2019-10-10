@@ -1,47 +1,78 @@
-body{
-  color: #282425;
+body {
+  color           : #282425;
   background-color: #fcfbf4;
-  font-size: 20px;
-  line-height: 1.5;
-  font-family: 'Signika', sans-serif;
-  margin:0;
-   }
+  font-size       : 20px;
+  line-height     : 1.5;
+  font-family     : 'Signika', sans-serif;
+  margin          : 0;
+}
+
 h1 {
-    color: #756158;
-    font-size: 50px;
-    font-style: italic;
-    text-align: center;
-    margin-top:0;
-   }
+  color     : #756158;
+  font-size : 50px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 h2 {
-  color: #756158;
-  font-size: 25px;
+  color     : #756158;
+  font-size : 25px;
   font-style: italic;
   text-align: center
 }
 
 a {
-    font-style: italic;
+  font-style: italic;
 }
 
-.foto-omne{
-    width: 200px;
-    border-radius: 20px;
-    float: left;
-    margin: 0 30px 30px 0;
+.foto-omne {
+  width        : 200px;
+  border-radius: 20px;
+  float        : left;
+  margin       : 0 30px 30px 0;
 }
-.fotogalerie img{
-    width: 32%;
-    border: 3px solid #756158;
-    border-radius: 10px;
+
+.fotogalerie img {
+  width        : 32%;
+  border       : 3px solid #756158;
+  border-radius: 10px;
 }
 
 section {
-  padding:30px 15%;
+  padding: 40px 15%;
 }
 
-.paticka{
+.paticka {
   text-align: center;
   margin-top: 50px;
 }
+
+.menu {
+  margin: 30px 0;
+  padding: 0;
+  text-align: center;
+  background-color:#f7cebc;
+  border-radius: 10px;
+}
+.menu li {
+  display: inline-block;
+}
+.menu a {
+  display: inline-block;
+  color: rgb(121, 113, 113);
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+  background-color: rgb(63, 61, 62);
+}
+
+.box {
+  background-color: rgb(196, 177, 180) ;
+  border-style: dotted;
+   }
